@@ -1,1 +1,0 @@
-https://github.com/dm1triss/ono-tebe-nado
