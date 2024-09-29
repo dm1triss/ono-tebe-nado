@@ -13,8 +13,8 @@
   display: flex;
   width: 397px;
   height: 22px;
-  gap: 31px;
-  margin-left: 35px;
+  gap: 32px;
+  margin-left: 26px;
   margin-top: 44px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -34,34 +34,34 @@
   text-decoration: none;
 }
 .header__logo-image {
-  width: 1071px;
-  height: 105px;
+  width: 1053px;
+  height: 106px;
   display: flex;
   margin-block: -66px;
 }
 .address {
-  margin-left: 795px;
+  margin-left: 786px;
   font-style: normal;
 }
 .header__address {
   width: 233px;
   height: 94px;
-  margin-block: -100px;
-  line-height: 24.5px;
-  letter-spacing: 0.005em;
+  margin-block: -101px;
+  line-height: 24.8px;
+  letter-spacing: 0.004em;
   position: relative;
   font-size: 18px;
 }
 .cover {
   position: relative;
-  padding: 165px 0 0 51px;
+  padding: 165px 0 0 50px;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   width: 1100px;
   height: 757px;
-  margin: -40px 0 0 8px;
+  margin: -40px 0;
 }
 .overlay {
   width: 100%;
@@ -121,7 +121,7 @@
 .cover__description {
   display: flex;
   align-items: flex-end;
-  width: 664px;
+  width: 666px;
   height: 174px;
 }
 .cover__description-text {
@@ -130,7 +130,7 @@
   font-size: 22px;
   text-transform: uppercase;
   color: #fff;
-  margin: 0 0 0 28px;
+  margin: 0 0 0 29px;
   word-spacing: 18.3px;
 }
 .bet-button {
@@ -146,6 +146,9 @@
   right: 50px;
   bottom: 50px;
   z-index: 1;
+}
+.lots {
+  margin: 40px -8px;
 }
 .lots__heading {
   padding: 179px 0 0 72px;
@@ -193,16 +196,14 @@
   line-height: 1.2;
   text-transform: uppercase;
   text-decoration: underline;
-  color: #fff;
-  z-index: 1;
+  color: #ffffff;
 }
 .card__text {
   position: relative;
   font-size: 20px;
   line-height: 1.2;
-  color: #fff;
+  color: #ffffff;
   padding: 190px 39px;
-  z-index: 1;
 }
 .lots__look-more-link {
   font-size: 20px;
@@ -212,8 +213,8 @@
   right: -72px;
 }
 .about {
-  top: 802px;
-  left: 79px;
+  top: 761px;
+  left: 71px;
   width: 1086px;
   height: 595px;
   position: relative;
@@ -240,7 +241,7 @@
   color: #000;
 }
 .about__text {
-  margin: 239px 313px;
+  margin: 240px 313px;
   width: 700px;
   font-size: 20px;
   display: flex;
@@ -257,8 +258,8 @@
   display: flex;
   align-items: first baseline;
   gap: 218px;
-  top: 949px;
-  left: -736px;
+  top: 909px;
+  left: -735px;
 }
 .footer__menu {
   width: 200px;
@@ -276,11 +277,11 @@
   left: 41px;
 }
 .footer__social-list {
-  width: 274px;
+  width: 283px;
   height: 48px;
   display: flex;
   position: absolute;
-  gap: 16px;
+  gap: 7px;
   top: -1px;
   right: -426px;
 }
