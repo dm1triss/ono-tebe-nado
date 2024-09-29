@@ -121,7 +121,7 @@
 .cover__description {
   display: flex;
   align-items: flex-end;
-  width: 666px;
+  width: 730px;
   height: 174px;
 }
 .cover__description-text {
@@ -132,6 +132,7 @@
   color: #fff;
   margin: 0 0 0 29px;
   word-spacing: 18.3px;
+  width: 730px;
 }
 .bet-button {
   font-family: "Raleway", sans-serif;
