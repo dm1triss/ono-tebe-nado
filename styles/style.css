@@ -60,7 +60,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 1100px;
   min-height: 757px;
   bottom: 149px;
 }
@@ -200,7 +199,6 @@
   top: 4px;
 }
 .about {
-  width: 1100px;
   display: flex;
   flex-direction: column;
   margin-left: 70px;
@@ -221,7 +219,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  inset: -139px -91px;
+  inset: -139px -57px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
