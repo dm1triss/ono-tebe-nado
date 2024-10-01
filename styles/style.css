@@ -61,7 +61,7 @@
   background-size: cover;
   background-position: center;
   width: 1100px;
-  min-height: 757px; 
+  min-height: 757px;
   bottom: 149px;
 }
 .overlay {
@@ -243,6 +243,8 @@
   display: flex;
   align-items: first baseline;
   gap: 235px;
+  height: 329px;
+  width: 1100px;
 }
 .footer__menu-list-item {
   list-style: none;
@@ -267,6 +269,7 @@
 .footer__menu {
   display: flex;
   width: 250px;
+  height: 0;
 }
 .footer__address {
   width: 409px;
