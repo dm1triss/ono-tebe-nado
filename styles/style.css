@@ -193,7 +193,6 @@
 }
 .about {
   display: flex;
-  flex-direction: column;
   margin-left: 70px;
   padding-bottom: 180px;
 }
@@ -203,7 +202,6 @@
   height: 240px;
   border-radius: 50%;
   display: flex;
-  position: absolute;
   justify-content: center;
 }
 .about__logo-image {
@@ -211,25 +209,23 @@
   height: 242px;
 }
 .about__title {
-  display: flex;
-  justify-content: center;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
   color: #000;
-  margin: 100px 119px 7px 6px;
+  margin: 100px 0 78px;
 }
 .about__text {
-  width: 700px;
+  width: 694px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin: 94px 0 0 313px;
+  margin-left: 71px;
 }
 .about__space {
   line-height: 1.2;
-  letter-spacing: 0.0075em;
+  letter-spacing: 0.007em;
 }
 .footer {
   display: flex;
@@ -253,10 +249,10 @@
 }
 .footer__menu {
   display: flex;
-  margin: 1px 1px 1px 2px;
+  margin-left: 2px;
 }
 .footer__address {
-  margin-left: 50px;
+  margin-left: 51px;
 }
 .footer__social-list-item {
   display: flex;
